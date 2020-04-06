@@ -1,0 +1,257 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.nav-header {
+  /* background-color: #00acee; */
+  height: 10vh !important;
+}
+
+.b-b {
+  border-bottom: 1px solid #c5c9ca;
+}
+
+.b-l {
+  border-left: 1px solid #c5c9ca;
+}
+
+.b-a {
+  border: 1px solid #c5c9ca;
+}
+
+.b-r {
+  border-right: 1px solid #c5c9ca;
+}
+
+.b-v {
+  border-bottom: 1px solid #c5c9ca;
+  border-top: 1px solid #c5c9ca;
+}
+
+.no-b {
+  border: 0px;
+}
+
+.b-3x {
+  border-width: 4px;
+}
+
+.b-blue {
+  border-color: #00acee;
+}
+
+.txt-color {
+  color: #00acee;
+}
+
+.txt-red {
+  color: #f30202;
+}
+
+.txt-grey {
+  color: #666666;
+}
+
+.bk-blue {
+  background-color: #6491ec;
+}
+
+.bk-white {
+  background-color: white;
+}
+
+.full-h {
+  height: 90vh;
+}
+
+.h-full {
+  height: 100vh;
+}
+
+.h-md {
+  height: 200px;
+}
+
+.h-sm {
+  min-width: 120px;
+}
+
+.h-xs {
+  height: 30px !important;
+}
+
+.twit-row-mar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  margin-top: 38px;
+  border: 1px solid darkgray;
+  width: 200px;
+  height: 200px;
+}
+
+.prf-pic {
+  border: 1px solid darkgray;
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.pad-v {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.pad-h {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.pad-h-login {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pad-h-profile {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pad-t {
+  padding-top: 10px;
+}
+
+.m-b {
+  margin-bottom: 5px;
+}
+
+.m-t {
+  margin-top: 10px;
+}
+
+.m-b-login {
+  margin-bottom: 30px;
+}
+
+.hbox {
+  display: table;
+  width: 100%;
+  height: 100%;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.hbox .col {
+  display: table-cell;
+  float: none;
+  height: 100%;
+  vertical-align: top;
+}
+
+.w-lg {
+  width: 280px;
+}
+
+.w-xs {
+  width: 40px;
+}
+
+.w-sm {
+  width: 70px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.w-xlg {
+  width: 300px;
+}
+
+.v-center {
+  vertical-align: middle !important;
+}
+
+.f-heavy {
+  font-weight: 350;
+  font-size: 20px;
+}
+
+.f-md {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.f-sm {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.f-xs {
+  font-weight: 400px;
+  font-size: 11px;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+.login-logo {
+  height: 300px;
+}
+
+.box-shadow-lg {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.dis-in {
+  display: block;
+  word-wrap: break-word;
+}
+
+.login-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
